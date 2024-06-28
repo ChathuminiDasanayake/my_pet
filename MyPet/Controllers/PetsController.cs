@@ -10,7 +10,7 @@ namespace MyPet.Controllers
         [HttpGet]
         public IActionResult Pets()
         {
-            var pets = new string[] { "Pet 1", "Pet 2", "Pet 3" };
+            var pets = new string[] { "Pet 1", "Pet 2", "Pet 3", "Pet 4" }; 
             return Ok(pets);
         }
 
