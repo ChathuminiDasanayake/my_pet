@@ -1,35 +1,40 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
-using MyPet.Models;
-using MyPet.Services;
+using MyPet.Services.Pets;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 
 namespace MyPet.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("api/pets")]
     [ApiController]
     public class PetsController : ControllerBase
     {
-        private PetService _petService;
+        private readonly IPetRepository _petService;
 
-        public PetsController()
+        public PetsController(IPetRepository repository)
         {
-            _petService = new PetService(); 
+            _petService = repository; 
         }
 
-        [HttpGet("{id?}")]
-        public IActionResult GetPet(int? id) 
+        [HttpGet]
+        public IActionResult GetPets() 
         {
             var pets = _petService.AllPets();
-            if (id is null) return Ok(pets);
-
-            pets = pets.Where(p => p.Id == id).ToList();
+            
             return Ok(pets);
         }
+        [HttpGet("{id}")]
+        public IActionResult GetPet(int id)
+        {
+            var pet = _petService.GetPet(id);
+            if (pet is null)
+            {
+                return NotFound();
+            }
+            return Ok(pet);
+        }
 
-        
-        
     }
 }

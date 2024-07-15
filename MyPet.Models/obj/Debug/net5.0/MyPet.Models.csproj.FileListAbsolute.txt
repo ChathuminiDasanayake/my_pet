@@ -1,0 +1,12 @@
+C:\Users\HP\source\repos\MyPet\MyPet.Models\bin\Debug\net5.0\MyPet.Models.deps.json
+C:\Users\HP\source\repos\MyPet\MyPet.Models\bin\Debug\net5.0\MyPet.Models.dll
+C:\Users\HP\source\repos\MyPet\MyPet.Models\bin\Debug\net5.0\MyPet.Models.pdb
+C:\Users\HP\source\repos\MyPet\MyPet.Models\obj\Debug\net5.0\MyPet.Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HP\source\repos\MyPet\MyPet.Models\obj\Debug\net5.0\MyPet.Models.AssemblyInfoInputs.cache
+C:\Users\HP\source\repos\MyPet\MyPet.Models\obj\Debug\net5.0\MyPet.Models.AssemblyInfo.cs
+C:\Users\HP\source\repos\MyPet\MyPet.Models\obj\Debug\net5.0\MyPet.Models.csproj.CoreCompileInputs.cache
+C:\Users\HP\source\repos\MyPet\MyPet.Models\obj\Debug\net5.0\MyPet.Models.sourcelink.json
+C:\Users\HP\source\repos\MyPet\MyPet.Models\obj\Debug\net5.0\MyPet.Models.dll
+C:\Users\HP\source\repos\MyPet\MyPet.Models\obj\Debug\net5.0\refint\MyPet.Models.dll
+C:\Users\HP\source\repos\MyPet\MyPet.Models\obj\Debug\net5.0\MyPet.Models.pdb
+C:\Users\HP\source\repos\MyPet\MyPet.Models\obj\Debug\net5.0\ref\MyPet.Models.dll

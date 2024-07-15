@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System;
 
-namespace MyPet.Services
+namespace MyPet.Services.Pets
 {
-    public class PetService
+    public class PetService : IPetRepository
     {
         // Get all Pets
 
@@ -58,6 +58,11 @@ namespace MyPet.Services
             pets.Add(pet4);
 
             return pets;
+        }
+
+        public Pet GetPet(int id)
+        {
+            throw new NotImplementedException();
         }
     }
 }

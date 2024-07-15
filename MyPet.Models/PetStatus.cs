@@ -5,4 +5,12 @@
         Found,
         NotFound
     }
+
+    public enum PetGender 
+    
+    {
+        Male,
+        Female
+    
+    }
 }
